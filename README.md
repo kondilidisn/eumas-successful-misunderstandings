@@ -1,7 +1,7 @@
-# This Repository contains the code and instructions needed to reproduce the experiments presented on the manuscript:
+### This repository contains the code and instructions for reproducing the experiments presented in:
 
-    "Successful Misunderstandings: Learning to Coordinate Without Being Understood", 
-    Nikolaos Kondylidis, Anil Yaman, Frank van Harmelen, Erman Acar, Annette Ten Teije, 
+    "``Stop replacing salt with sugar!'': Towards Intuitive Human-Agent Teaching", 
+    Nikolaos Kondylidis, Andrea Rafanelli, Ilaria Tiddi, Annette Ten Teije, Frank Van Harmelen, 
     Presented at the 22nd European Conference on Multi-Agent Systems (EUMAS 2025), Bucharest
 
 ## Experiment Reproducibility Instructions:
