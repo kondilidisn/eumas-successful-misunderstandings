@@ -1,0 +1,6 @@
+numpy
+omegaconf
+hydra-core
+wandb
+tqdm
+matplotlib

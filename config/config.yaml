@@ -1,0 +1,43 @@
+
+
+experiment:
+  population_size: 2
+  init_population: 3
+  final_population: 4
+  episodes: 10000
+  report_every_episodes: 100
+  average_window_size: 0
+  word_length: 5
+  repetitions: 1000
+  print_findings: False
+  print_episode_summary: False
+  print_debug_episode_summary: False
+  num_workers: 10
+  metrics_histogram_bin_edges: [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1]
+  agent_pairing: "random"
+  experiment_setting: agents_initially_grouped_experiment
+#  experiment_setting: population_increase_experiment
+
+  reward_table: random_simple
+#  reward_table: random_simple_non_symmetric
+#  reward_table: random_3x3
+
+
+wandb:
+  use: False
+  project: <add_project_name>
+  key: <add_your_key>
+  entity: <add_entity_name>
+  run_name: "run_name"
+  record_individual_experiments: False
+
+agent:
+  forget_word_threshold: 20
+  max_vocab_size: -1
+  forget_oldest_word_or_least_useful: "least_useful" # "oldest" or "least_useful"
+  softmax_word_role_interpretations: True
+  learning_rate: 1
+  use_epsilon_greedy: True
+  epsilon_start: 0.2
+  epsilon_min: 0
+  apply_epsilon_in_episode_ratio: 0.5
