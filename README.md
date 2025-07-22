@@ -1,3 +1,9 @@
+# This Repository contains the code and instructions needed to reproduce the experiments presented on the manuscript:
+
+    "Successful Misunderstandings: Learning to Coordinate Without Being Understood", 
+    Nikolaos Kondylidis, Anil Yaman, Frank van Harmelen, Erman Acar, Annette Ten Teije, 
+    Presented at the 22nd European Conference on Multi-Agent Systems (EUMAS 2025), Bucharest
+
 # Experiment Reproducibility
 
 
